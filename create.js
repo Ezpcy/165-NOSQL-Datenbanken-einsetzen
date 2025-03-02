@@ -13,7 +13,7 @@ const entwickler3Id = new ObjectId();
 db.Spiel.insertOne({
     _id: spiel1Id,
     name: "Assassins Creed",
-    genre: ["Action", "Adventure"],
+    genres: ["Action", "Adventure"],
     release_datum: new Date("2007-11-13"),
     plattformen: ["PC", "PS3", "Xbox 360"],
     publisher: {
