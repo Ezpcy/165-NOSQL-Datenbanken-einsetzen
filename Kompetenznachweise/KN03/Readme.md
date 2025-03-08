@@ -2,7 +2,7 @@
 
 ## A) Daten hinzufügen
 
-![Update Script](./create.js)
+![Update Script](create.js)
 
 ## B) Daten Löschen
 

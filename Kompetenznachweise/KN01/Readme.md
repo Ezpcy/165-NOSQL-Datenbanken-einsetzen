@@ -105,7 +105,7 @@ Shell Interaktion:
 
 _Abbildung 4: Shell Interaktion_
 
-1. `show  dbs` zeigt alle Datenbanken an.
+1. `show dbs` zeigt alle Datenbanken an.
 2. `show databases` zeigt alle Datenbanken an.
 3. `use Seker` wechselt zur Datenbank `Seker`.
 4. `show collections` zeigt alle Collections in der Datenbank `Seker` an.

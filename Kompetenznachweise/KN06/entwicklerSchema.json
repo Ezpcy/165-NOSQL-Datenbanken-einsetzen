@@ -1,0 +1,85 @@
+{
+	"bsonType": "object",
+	"default": {},
+	"title": "Entwickler",
+	"required": [
+		"_id",
+		"name",
+		"email",
+		"rolle"
+	],
+	"properties": {
+		"_id": {
+			"bsonType": "object",
+			"default": {},
+			"title": "The _id Schema",
+			"required": [
+				"$oid"
+			],
+			"properties": {
+				"$oid": {
+					"bsonType": "string",
+					"default": "",
+					"title": "The $oid Schema"
+				}
+			}
+		},
+		"name": {
+			"bsonType": "string",
+			"default": "",
+			"title": "The name Schema"
+		},
+		"email": {
+			"bsonType": "string",
+			"default": "",
+			"title": "The email Schema"
+		},
+		"rolle": {
+			"bsonType": "string",
+			"default": "",
+			"title": "The rolle Schema"
+		},
+		"erfahrung": {
+			"bsonType": "integer",
+			"default": 0,
+			"title": "The erfahrung Schema"
+		},
+		"spiele": {
+			"bsonType": "array",
+			"default": [],
+			"title": "The spiele Schema",
+			"items": {
+				"bsonType": "object",
+				"title": "A Schema",
+				"required": [
+					"$oid"
+				],
+				"properties": {
+					"$oid": {
+						"bsonType": "string",
+						"title": "The $oid Schema"
+					}
+				}
+			}
+		}
+	},
+	"examples": [
+		{
+			"_id": {
+				"$oid": "67c449fdeb5e4b29026ef37c"
+			},
+			"name": "Jean Raymond",
+			"email": "j.raymond@ubisoft.com",
+			"rolle": "Lead Developer",
+			"erfahrung": 5,
+			"spiele": [
+				{
+					"$oid": "67c449fdeb5e4b29026ef379"
+				},
+				{
+					"$oid": "67c449fdeb5e4b29026ef37a"
+				}
+			]
+		}
+	]
+}

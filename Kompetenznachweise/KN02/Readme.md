@@ -17,7 +17,7 @@ _Abbildung 1: Konzeptionelles Datenmodell_
 ## B) Logisches Modell für MongoDB
 
 
-![](../../../../../entitiy.drawio(3).png)
+![](../../../../../../entitiy.drawio(3).png)
 
 _Abbildung 2: Logisches Datenmodell_
 

@@ -1,0 +1,187 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "http://example.com/example.json",
+	"bsonType": "object",
+	"title": "Spiel",
+	"required": [
+		"_id",
+		"name",
+		"genres"
+	],
+	"properties": {
+		"_id": {
+			"bsonType": "object",
+			"title": "The _id Schema",
+			"required": [
+				"$oid"
+			],
+			"properties": {
+				"$oid": {
+					"bsonType": "string",
+					"title": "The $oid Schema"
+				}
+			}
+		},
+		"name": {
+			"bsonType": "string",
+			"title": "The name Schema"
+		},
+		"genres": {
+			"bsonType": "array",
+			"title": "The genres Schema",
+			"items": {
+				"bsonType": "string",
+				"title": "A genre Schema"
+			}
+		},
+		"release_datum": {
+			"bsonType": "object",
+			"title": "The release_datum Schema",
+			"required": [
+				"$date"
+			],
+			"properties": {
+				"$date": {
+					"bsonType": "string",
+					"title": "The $date Schema"
+				}
+			}
+		},
+		"plattformen": {
+			"bsonType": "array",
+			"title": "The plattformen Schema",
+			"items": {
+				"bsonType": "string",
+				"title": "A plattform Schema"
+			}
+		},
+		"publisher": {
+			"bsonType": "object",
+			"title": "The publisher Schema",
+			"required": [
+				"name",
+				"kontakt"
+			],
+			"properties": {
+				"name": {
+					"bsonType": "string",
+					"title": "The name Schema"
+				},
+				"website": {
+					"bsonType": "string",
+					"title": "The website Schema"
+				},
+				"kontakt": {
+					"bsonType": "object",
+					"title": "The kontakt Schema",
+					"required": [
+						"email",
+						"telefon"
+					],
+					"properties": {
+						"email": {
+							"bsonType": "string",
+							"title": "The email Schema"
+						},
+						"telefon": {
+							"bsonType": "string",
+							"title": "The telefon Schema"
+						}
+					}
+				}
+			}
+		},
+		"technologien": {
+			"bsonType": "array",
+			"title": "The technologien Schema",
+			"items": {
+				"bsonType": "object",
+				"title": "A Schema",
+				"required": [
+					"name",
+					"version",
+					"sprache"
+				],
+				"properties": {
+					"name": {
+						"bsonType": "string",
+						"title": "The name Schema"
+					},
+					"version": {
+						"bsonType": "string",
+						"title": "The version Schema"
+					},
+					"sprache": {
+						"bsonType": "string",
+						"title": "The sprache Schema"
+					}
+				}
+			}
+		},
+		"entwickler": {
+			"bsonType": "array",
+			"title": "The entwickler Schema",
+			"items": {
+				"bsonType": "object",
+				"title": "A entwickler Schema",
+				"required": [
+					"$oid"
+				],
+				"properties": {
+					"$oid": {
+						"bsonType": "string",
+						"title": "The $oid Schema"
+					}
+				}
+			}
+		}
+	},
+	"examples": [
+		{
+			"_id": {
+				"$oid": "67c449fdeb5e4b29026ef379"
+			},
+			"name": "Assassins Creed",
+			"genres": [
+				"Action",
+				"Adventure"
+			],
+			"release_datum": {
+				"$date": "2007-11-13T00:00:00.000Z"
+			},
+			"plattformen": [
+				"PC",
+				"PS3",
+				"Xbox 360"
+			],
+			"publisher": {
+				"name": "Ubisoft",
+				"website": "https://www.ubisoft.com",
+				"kontakt": {
+					"email": "ubisoft@mailcom",
+					"telefon": "+33 1 48 18 50 00"
+				}
+			},
+			"technologien": [
+				{
+					"name": "Anvil",
+					"version": "1.0",
+					"sprache": "C++"
+				},
+				{
+					"name": "Havok",
+					"version": "1.0",
+					"sprache": "C++"
+				}
+			],
+			"entwickler": [
+				{
+					"$oid": "67c449fdeb5e4b29026ef37c"
+				},
+				{
+					"$oid": "67c449fdeb5e4b29026ef37d"
+				}
+			]
+		}
+	]
+}

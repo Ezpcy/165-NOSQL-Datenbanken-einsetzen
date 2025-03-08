@@ -8,15 +8,15 @@ _Abbildung 1: Fehlgeschlagener Loginversuch_
 
 **Skript zum erstellen der User:**
 
-[Create User Script](createUser.js)
+![Create User](createUsers.js)
 
-**Benutzer 1 login und Interaktion:**
+**Benutzer 1: Login und Interaktion:**
 
 ![Benutzer 1](image/reader_shell.png)
 
 _Abbildung 2: Benutzer 1 Shell_
 
-**Benutzer 2 login und Interaktion:**
+**Benutzer 2: Login und Interaktion:**
 
 ![Benutzer 2](image/reader_writer_shell.png)
 
