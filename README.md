@@ -11,3 +11,4 @@
 - [KN05: Administration von MongoDB](Kompetenznachweise/KN05/Readme.md)
 - [KN06 - JSON Schema und Collection Validierung](Kompetenznachweise/KN06/Readme.md)
 - [KN-N-01: Installation und Datenmodellierung für Neo4j](Kompetenznachweise/KN-N-01/Readme.md)
+- [KN-N-02: Datenabfrage und -Manipulation](Kompetenznachweise/KN-N-02/Readme.md)
