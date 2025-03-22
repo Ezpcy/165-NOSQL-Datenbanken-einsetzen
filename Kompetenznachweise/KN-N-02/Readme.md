@@ -4,7 +4,7 @@
 
 **Skript Datei:**
 
-![](createSpielDb.cypher)
+![Script](createSpielDb.cypher)
 
 ## B) Daten abfragen
 
